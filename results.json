@@ -1,0 +1,21 @@
+{
+  "suites": [
+    {
+      "name": "Queue Insert",
+      "scenarios": [
+        {
+          "name": "with bulk",
+          "executions": 5,
+          "time": 935602102.4,
+          "error": 2.081352630353023
+        },
+        {
+          "name": "without bulk",
+          "executions": 13,
+          "time": 362730091.15384614,
+          "error": 1.4269216829916747
+        }
+      ]
+    }
+  ]
+}
